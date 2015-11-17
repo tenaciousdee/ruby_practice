@@ -1,8 +1,16 @@
 # Calculate the average (mean) of an array of numbers.
 
-def average(numbers)
-  number_array = []
+def average(array)
+  sum = 0.0
+  total = 0.0
   
+if array.length > 0 then
+  array.each do |num|
+    sum += num
+  end
+  total = sum / array.length
+end
+total
 end
 
 
