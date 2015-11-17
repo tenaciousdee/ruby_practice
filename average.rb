@@ -1,5 +1,10 @@
 # Calculate the average (mean) of an array of numbers.
 
+def average(numbers)
+  number_array = []
+  
+end
+
 
 # Driver code
 p average([3, 2, 1]) # should be 2

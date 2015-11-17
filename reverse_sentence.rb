@@ -1,6 +1,11 @@
 # Reverse a sentence string word by word. 
 # For example, given s = "the sky is blue", return "blue is sky the".
 
+def reverse_sentence(input)
+  sentence = []
+  sentence << input.split.reverse.join(' ')
+
+end
 
 # Driver code
 p reverse_sentence("the sky is blue") # should be "blue is sky the"
